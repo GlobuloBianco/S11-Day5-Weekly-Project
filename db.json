@@ -1,5 +1,12 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": 1,
+      "nome": "pippo",
+      "email": "ciao@gmail.com",
+      "passwor": "12345"
+    }
+  ],
   "favorites": [
     {
       "movieId": 567189,

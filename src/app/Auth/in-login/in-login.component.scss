@@ -1,0 +1,28 @@
+.formContent {
+    margin: 3.5em 4em;
+    .form-control {
+        padding: 0.7em 0;
+        background-color: #333333;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        &::placeholder {
+            color: #ffffff90;
+        }
+        color: white;
+    }
+    .btn-danger {
+        background-color: #E50914;
+        padding: 0.7em 0;
+        margin-top: 2.8em;
+    }
+}
+
+#idk {
+    cursor: pointer;
+    color: blue;
+}
+
+.noSpace { margin-bottom: -1em; }
+
+input.ng-invalid.ng-touched { border: #ff0000 1px solid; }
